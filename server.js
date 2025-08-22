@@ -5,7 +5,7 @@ app.use(express.json())
 
 const users = []
 
-app.post('/usuarios', (req, res) =>{
+app.post('/usuarios', (req, res) => {
 
 users.push(req.body)
 
