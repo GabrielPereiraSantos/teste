@@ -19,3 +19,8 @@ app.get('/usuarios', (req, res) => {
 
 app.listen(3000)
 
+/*
+BANCO DE DADOS
+ bielpereirasantos2006
+ Nemosi*10
+*/

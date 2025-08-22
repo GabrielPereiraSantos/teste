@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "teste para o tcc",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/GabrielPereiraSantos/teste#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.14.0"
   }
 }
