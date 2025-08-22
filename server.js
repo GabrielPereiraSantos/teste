@@ -8,7 +8,7 @@ app.post('/usuarios', (req, res) =>{
 
 console.log(req)
 
-res.send('Ok post')
+res.send('Ok, post')
 
 })
 
