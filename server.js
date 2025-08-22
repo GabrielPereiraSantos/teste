@@ -9,7 +9,7 @@ app.post('/usuarios', (req, res) =>{
 
 users.push(req.body)
 
-res.send('Ok, post')
+res.send('Usuario criado')
 
 })
 
