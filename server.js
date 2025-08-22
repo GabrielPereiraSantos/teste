@@ -9,7 +9,7 @@ app.post('/usuarios', (req, res) =>{
 
 users.push(req.body)
 
-res.send('Usuario criadoo')
+res.status(201).json(req,body)
 
 })
 
