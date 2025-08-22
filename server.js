@@ -14,7 +14,7 @@ res.send('Usuario criadoo')
 })
 
 app.get('/usuarios', (req, res) => {
-    res.json(users)
+    res.status(200).json(users)
 })
 
 app.listen(3000)
